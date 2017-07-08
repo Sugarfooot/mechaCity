@@ -1,0 +1,1379 @@
+﻿Log file open, 07/09/17 00:08:13
+LogInit:Display: Running engine for game: mechaCity
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1412110176) SRandInit(-1412110176).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.077621
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.08-22.08.14:316][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.08-22.08.14:316][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.08-22.08.14:324][  0]LogInit: Computer: UTILISATEUR-PC
+[2017.07.08-22.08.14:324][  0]LogInit: User: Utilisateur
+[2017.07.08-22.08.14:324][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.08-22.08.14:324][  0]LogInit: High frequency timer resolution =3.515683 MHz
+[2017.07.08-22.08.14:324][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.07.08-22.08.14:324][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.08-22.08.14:324][  0]LogMemory: Process Physical Memory: 274.54 MB used, 274.54 MB peak
+[2017.07.08-22.08.14:324][  0]LogMemory: Process Virtual Memory: 266.02 MB used, 266.02 MB peak
+[2017.07.08-22.08.14:324][  0]LogMemory: Physical Memory: 8422.11 MB used,  7913.64 MB free, 16335.75 MB total
+[2017.07.08-22.08.14:324][  0]LogMemory: Virtual Memory: 624.70 MB used,  7913.64 MB free, 8388608.00 MB total
+[2017.07.08-22.08.14:371][  0]LogInit: Using OS detected language (fr-FR).
+[2017.07.08-22.08.14:371][  0]LogInit: Using OS detected locale (fr-FR).
+[2017.07.08-22.08.14:373][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2017.07.08-22.08.14:373][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
+[2017.07.08-22.08.15:117][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.08-22.08.15:127][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
+[2017.07.08-22.08.15:127][  0]LogD3D11RHI:       1990/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.08-22.08.15:127][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.08-22.08.15:131][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.08-22.08.15:131][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.08-22.08.15:131][  0]LogWindows: EnumDisplayDevices:
+[2017.07.08-22.08.15:131][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:1 D:1)
+[2017.07.08-22.08.15:132][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.07.08-22.08.15:132][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.07.08-22.08.15:132][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.07.08-22.08.15:132][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.07.08-22.08.15:132][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.07.08-22.08.15:132][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.07.08-22.08.15:132][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.07.08-22.08.15:132][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
+[2017.07.08-22.08.15:132][  0]LogD3D11RHI:   Driver Version: 353.06 (internal:9.18.13.5306, unified:353.06)
+[2017.07.08-22.08.15:132][  0]LogD3D11RHI:      Driver Date: 5-27-2015
+[2017.07.08-22.08.15:132][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.08-22.08.15:138][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.07.08-22.08.15:138][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.08-22.08.15:151][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.08-22.08.15:152][  0]LogShaderCompilers: Guid format shader working directory is 20 characters bigger than the processId version (E:/documents/mechaCity/mechaCity/Intermediate/Shaders/WorkingDirectory/1216/).
+[2017.07.08-22.08.15:152][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Utilisateur/AppData/Local/Temp/UnrealShaderWorkingDir/67CE3F6A4035D5A1C17F779D83FD40B3/'.
+[2017.07.08-22.08.15:152][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.08-22.08.15:999][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.08-22.08.16:034][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.08-22.08.16:082][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.08-22.08.16:121][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.08-22.08.16:161][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.08-22.08.16:196][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.08-22.08.16:232][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.08-22.08.16:267][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.08-22.08.16:297][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.08-22.08.16:331][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.08-22.08.16:365][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.08-22.08.16:399][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.08-22.08.16:434][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.08-22.08.16:470][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.08-22.08.16:504][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.08-22.08.16:571][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.08-22.08.16:571][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.08-22.08.16:597][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.08-22.08.16:664][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.08-22.08.16:685][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.08-22.08.16:719][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.08-22.08.16:753][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.08-22.08.16:788][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.08-22.08.16:823][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.08-22.08.16:823][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.08-22.08.17:130][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.08-22.08.17:207][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/Utilisateur/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.08-22.08.17:207][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Utilisateur/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.08-22.08.17:207][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/documents/mechaCity/mechaCity/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.08-22.08.17:207][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.08-22.08.17:207][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/documents/mechaCity/mechaCity/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.08-22.08.17:207][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.08-22.08.17:223][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.08-22.08.17:234][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Utilisateur/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.08-22.08.17:242][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.08-22.08.17:242][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.08-22.08.17:242][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.08-22.08.17:242][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.08-22.08.17:533][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.08-22.08.17:535][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.08-22.08.17:721][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.08-22.08.17:750][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.08-22.08.17:780][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.08-22.08.17:780][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.08-22.08.17:780][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.08-22.08.18:162][  0]LogNetVersion: mechaCity , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1633651577)
+[2017.07.08-22.08.18:212][  0]LogAssetRegistry: FAssetRegistry took 0.0234 seconds to start up
+[2017.07.08-22.08.18:237][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.011704 seconds
+[2017.07.08-22.08.18:242][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.08-22.08.18:242][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.07.08-22.08.18:242][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.08-22.08.18:281][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.08-22.08.20:070][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.08-22.08.20:102][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.08-22.08.20:495][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.08-22.08.20:778][  0]SourceControl: Info Source control is disabled
+[2017.07.08-22.08.20:814][  0]SourceControl: Info Source control is disabled
+[2017.07.08-22.08.20:844][  0]SourceControl: Info Source control is disabled
+[2017.07.08-22.08.20:874][  0]SourceControl: Info Source control is disabled
+[2017.07.08-22.08.21:303][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.08-22.08.21:705][  0]LogEngine: Initializing Engine...
+[2017.07.08-22.08.21:706][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.08-22.08.21:887][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.08-22.08.21:887][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.08-22.08.21:974][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.08-22.08.21:981][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.08-22.08.21:989][  0]LogInit: FAudioDevice initialized.
+[2017.07.08-22.08.22:027][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Utilisateur/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.08-22.08.22:039][  0]LogInit: Texture streaming: Enabled
+[2017.07.08-22.08.22:099][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.08-22.08.22:250][  0]LogInit: Transaction tracking system initialized
+[2017.07.08-22.08.22:468][  0]BlueprintLog: New page: Editor Load
+[2017.07.08-22.08.23:125][  0]LocalizationService: Info Localization service is disabled
+[2017.07.08-22.08.23:588][  0]LogConsoleResponse:Display: 
+[2017.07.08-22.08.23:710][  0]LogFileCache: Scanning file cache for directory 'E:/documents/mechaCity/mechaCity/Content/' took 0.01s
+[2017.07.08-22.08.23:710][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.08-22.08.23:710][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.08-22.08.24:381][  0]SourceControl: Info Source control is disabled
+[2017.07.08-22.08.24:381][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.08-22.08.24:381][  0]LightingResults: New page: Lighting Build
+[2017.07.08-22.08.24:409][  0]MapCheck: New page: Map Check
+[2017.07.08-22.08.24:409][  0]LightingResults: New page: Lighting Build
+[2017.07.08-22.08.24:570][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.07.08-22.08.24:571][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.07.08-22.08.24:578][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.08-22.08.24:593][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.08-22.08.24:625][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.245ms to complete.
+[2017.07.08-22.08.24:625][  0]LogFileHelpers: Loading map 'Template_Default' took 0.244
+[2017.07.08-22.08.24:765][  0]LogCollectionManager: Loaded 0 collections in 0.000957 seconds
+[2017.07.08-22.08.24:838][  0]LogFileCache: Scanning file cache for directory 'E:/documents/mechaCity/mechaCity/Saved/Collections/' took 0.01s
+[2017.07.08-22.08.24:838][  0]LogFileCache: Scanning file cache for directory 'E:/documents/mechaCity/mechaCity/Content/Developers/Utilisateur/Collections/' took 0.01s
+[2017.07.08-22.08.24:838][  0]LogFileCache: Scanning file cache for directory 'E:/documents/mechaCity/mechaCity/Content/Collections/' took 0.01s
+[2017.07.08-22.08.24:838][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.07.08-22.08.24:847][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2329 classes and 491 folders.
+[2017.07.08-22.08.24:892][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.07.08-22.08.24:929][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.07.08-22.08.24:966][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.08-22.08.25:017][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.08-22.08.25:023][  0]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.08-22.08.25:025][  0]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.08-22.08.25:035][  0]LogSlate: Took 0.004473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.08-22.08.25:134][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.07.08-22.08.25:340][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.08-22.08.25:340][  0]LogLoad: (Engine Initialization) Total time: 12.19 seconds
+[2017.07.08-22.08.25:340][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.06 seconds
+[2017.07.08-22.08.25:340][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.08-22.08.25:340][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.08-22.08.25:353][  0]LogOcInput: OculusInput pre-init called
+[2017.07.08-22.08.25:353][  0]LogHMD: Starting GearVRController plugin
+[2017.07.08-22.08.25:369][  0]LogAssetRegistry: Asset discovery search completed in 7.1779 seconds
+[2017.07.08-22.08.25:370][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.07.08-22.08.25:370][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2017.07.08-22.08.25:373][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.08-22.08.31:141][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.07.08-22.08.47:746][644]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.08-22.08.48:061][644]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.07.08-22.08.48:617][644]LogSlate: Took 0.003897 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.08-22.08.48:794][645]LogSlate: Took 0.003752 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.08-22.09.57:456][839]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.08-22.10.05:807][693]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.08-22.10.11:966][368]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2017.07.08-22.10.12:031][368]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2017.07.08-22.10.12:059][368]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_12, compiling. 
+[2017.07.08-22.10.12:065][368]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_13, compiling. 
+[2017.07.08-22.10.12:069][368]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_14, compiling. 
+[2017.07.08-22.10.12:074][368]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_15, compiling. 
+[2017.07.08-22.10.12:079][368]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2017.07.08-22.10.12:084][368]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_16, compiling. 
+[2017.07.08-22.10.12:088][368]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_17, compiling. 
+[2017.07.08-22.10.12:093][368]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.07.08-22.10.12:099][368]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.07.08-22.10.12:104][368]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2017.07.08-22.10.12:109][368]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.08-22.10.12:637][396]MaterialEditorStats: Info Base pass shader without light map: 84 instructions
+[2017.07.08-22.10.12:637][396]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2017.07.08-22.10.12:637][396]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.07.08-22.10.12:637][396]MaterialEditorStats: Info User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2017.07.08-22.14.28:226][555]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Boulot/cubebrush/meshes/scaleMan.OBJ)
+[2017.07.08-22.14.28:245][555]LogFbx: Loading FBX Scene from E:/Boulot/cubebrush/meshes/scaleMan.OBJ
+[2017.07.08-22.14.28:310][555]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.08-22.14.32:305][555]LogFbx: Loading FBX Scene from E:/Boulot/cubebrush/meshes/scaleMan.OBJ
+[2017.07.08-22.14.32:367][555]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.08-22.14.32:371][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15805Mat'
+[2017.07.08-22.14.32:371][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15805Mat'
+[2017.07.08-22.14.32:378][555]LogMaterial: Missing cached shader map for material Group15805Mat, compiling. 
+[2017.07.08-22.14.32:402][555]LogFbx:Warning: Triangulating static mesh Group15805
+[2017.07.08-22.14.32:445][555]LogStaticMesh: Building static mesh scaleMan_Group15805...
+[2017.07.08-22.14.32:446][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.32:449][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15805.scaleMan_Group15805
+[2017.07.08-22.14.32:458][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15806Mat'
+[2017.07.08-22.14.32:458][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15806Mat'
+[2017.07.08-22.14.32:462][555]LogMaterial: Missing cached shader map for material Group15806Mat, compiling. 
+[2017.07.08-22.14.32:474][555]LogFbx:Warning: Triangulating static mesh Group15806
+[2017.07.08-22.14.32:544][555]LogStaticMesh: Building static mesh scaleMan_Group15806...
+[2017.07.08-22.14.32:545][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.32:549][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15806.scaleMan_Group15806
+[2017.07.08-22.14.32:556][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15807Mat'
+[2017.07.08-22.14.32:556][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15807Mat'
+[2017.07.08-22.14.32:560][555]LogMaterial: Missing cached shader map for material Group15807Mat, compiling. 
+[2017.07.08-22.14.32:573][555]LogFbx:Warning: Triangulating static mesh Group15807
+[2017.07.08-22.14.32:579][555]LogStaticMesh: Building static mesh scaleMan_Group15807...
+[2017.07.08-22.14.32:579][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.32:579][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15807.scaleMan_Group15807
+[2017.07.08-22.14.32:585][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15808Mat'
+[2017.07.08-22.14.32:585][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15808Mat'
+[2017.07.08-22.14.32:592][555]LogMaterial: Missing cached shader map for material Group15808Mat, compiling. 
+[2017.07.08-22.14.32:606][555]LogFbx:Warning: Triangulating static mesh Group15808
+[2017.07.08-22.14.32:612][555]LogStaticMesh: Building static mesh scaleMan_Group15808...
+[2017.07.08-22.14.32:612][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.32:613][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15808.scaleMan_Group15808
+[2017.07.08-22.14.32:620][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15809Mat'
+[2017.07.08-22.14.32:620][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15809Mat'
+[2017.07.08-22.14.32:625][555]LogMaterial: Missing cached shader map for material Group15809Mat, compiling. 
+[2017.07.08-22.14.32:646][555]LogFbx:Warning: Triangulating static mesh Group15809
+[2017.07.08-22.14.32:652][555]LogStaticMesh: Building static mesh scaleMan_Group15809...
+[2017.07.08-22.14.32:652][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.32:653][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15809.scaleMan_Group15809
+[2017.07.08-22.14.32:670][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15810Mat'
+[2017.07.08-22.14.32:670][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15810Mat'
+[2017.07.08-22.14.32:700][555]LogMaterial: Missing cached shader map for material Group15810Mat, compiling. 
+[2017.07.08-22.14.32:719][555]LogFbx:Warning: Triangulating static mesh Group15810
+[2017.07.08-22.14.32:725][555]LogStaticMesh: Building static mesh scaleMan_Group15810...
+[2017.07.08-22.14.32:725][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.32:726][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15810.scaleMan_Group15810
+[2017.07.08-22.14.32:733][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15811Mat'
+[2017.07.08-22.14.32:733][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15811Mat'
+[2017.07.08-22.14.32:738][555]LogMaterial: Missing cached shader map for material Group15811Mat, compiling. 
+[2017.07.08-22.14.32:759][555]LogFbx:Warning: Triangulating static mesh Group15811
+[2017.07.08-22.14.32:769][555]LogStaticMesh: Building static mesh scaleMan_Group15811...
+[2017.07.08-22.14.32:769][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.32:770][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15811.scaleMan_Group15811
+[2017.07.08-22.14.32:778][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15812Mat'
+[2017.07.08-22.14.32:778][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15812Mat'
+[2017.07.08-22.14.32:784][555]LogMaterial: Missing cached shader map for material Group15812Mat, compiling. 
+[2017.07.08-22.14.32:804][555]LogFbx:Warning: Triangulating static mesh Group15812
+[2017.07.08-22.14.32:854][555]LogStaticMesh: Building static mesh scaleMan_Group15812...
+[2017.07.08-22.14.32:855][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.32:859][555]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15812.scaleMan_Group15812
+[2017.07.08-22.14.32:871][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15813Mat'
+[2017.07.08-22.14.32:871][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15813Mat'
+[2017.07.08-22.14.32:877][555]LogMaterial: Missing cached shader map for material Group15813Mat, compiling. 
+[2017.07.08-22.14.32:894][555]LogFbx:Warning: Triangulating static mesh Group15813
+[2017.07.08-22.14.32:948][555]LogStaticMesh: Building static mesh scaleMan_Group15813...
+[2017.07.08-22.14.32:948][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.32:952][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15813.scaleMan_Group15813
+[2017.07.08-22.14.32:964][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15814Mat'
+[2017.07.08-22.14.32:964][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15814Mat'
+[2017.07.08-22.14.32:968][555]LogMaterial: Missing cached shader map for material Group15814Mat, compiling. 
+[2017.07.08-22.14.32:988][555]LogFbx:Warning: Triangulating static mesh Group15814
+[2017.07.08-22.14.33:050][555]LogStaticMesh: Building static mesh scaleMan_Group15814...
+[2017.07.08-22.14.33:051][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.33:056][555]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15814.scaleMan_Group15814
+[2017.07.08-22.14.33:068][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15815Mat'
+[2017.07.08-22.14.33:071][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15815Mat'
+[2017.07.08-22.14.33:076][555]LogMaterial: Missing cached shader map for material Group15815Mat, compiling. 
+[2017.07.08-22.14.33:096][555]LogFbx:Warning: Triangulating static mesh Group15815
+[2017.07.08-22.14.33:123][555]LogStaticMesh: Building static mesh scaleMan_Group15815...
+[2017.07.08-22.14.33:123][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.33:126][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15815.scaleMan_Group15815
+[2017.07.08-22.14.33:136][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15816Mat'
+[2017.07.08-22.14.33:136][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15816Mat'
+[2017.07.08-22.14.33:142][555]LogMaterial: Missing cached shader map for material Group15816Mat, compiling. 
+[2017.07.08-22.14.33:160][555]LogFbx:Warning: Triangulating static mesh Group15816
+[2017.07.08-22.14.33:173][555]LogStaticMesh: Building static mesh scaleMan_Group15816...
+[2017.07.08-22.14.33:173][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.33:174][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15816.scaleMan_Group15816
+[2017.07.08-22.14.33:181][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15817Mat'
+[2017.07.08-22.14.33:181][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15817Mat'
+[2017.07.08-22.14.33:185][555]LogMaterial: Missing cached shader map for material Group15817Mat, compiling. 
+[2017.07.08-22.14.33:203][555]LogFbx:Warning: Triangulating static mesh Group15817
+[2017.07.08-22.14.33:214][555]LogStaticMesh: Building static mesh scaleMan_Group15817...
+[2017.07.08-22.14.33:214][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.33:215][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15817.scaleMan_Group15817
+[2017.07.08-22.14.33:223][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15818Mat'
+[2017.07.08-22.14.33:223][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15818Mat'
+[2017.07.08-22.14.33:228][555]LogMaterial: Missing cached shader map for material Group15818Mat, compiling. 
+[2017.07.08-22.14.33:249][555]LogFbx:Warning: Triangulating static mesh Group15818
+[2017.07.08-22.14.33:261][555]LogStaticMesh: Building static mesh scaleMan_Group15818...
+[2017.07.08-22.14.33:261][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.33:262][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15818.scaleMan_Group15818
+[2017.07.08-22.14.33:280][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15819Mat'
+[2017.07.08-22.14.33:280][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15819Mat'
+[2017.07.08-22.14.33:289][555]LogMaterial: Missing cached shader map for material Group15819Mat, compiling. 
+[2017.07.08-22.14.33:309][555]LogFbx:Warning: Triangulating static mesh Group15819
+[2017.07.08-22.14.33:321][555]LogStaticMesh: Building static mesh scaleMan_Group15819...
+[2017.07.08-22.14.33:321][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.33:322][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15819.scaleMan_Group15819
+[2017.07.08-22.14.33:334][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15820Mat'
+[2017.07.08-22.14.33:334][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15820Mat'
+[2017.07.08-22.14.33:343][555]LogMaterial: Missing cached shader map for material Group15820Mat, compiling. 
+[2017.07.08-22.14.33:365][555]LogFbx:Warning: Triangulating static mesh Group15820
+[2017.07.08-22.14.33:378][555]LogStaticMesh: Building static mesh scaleMan_Group15820...
+[2017.07.08-22.14.33:378][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.33:379][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15820.scaleMan_Group15820
+[2017.07.08-22.14.33:394][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15821Mat'
+[2017.07.08-22.14.33:394][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15821Mat'
+[2017.07.08-22.14.33:399][555]LogMaterial: Missing cached shader map for material Group15821Mat, compiling. 
+[2017.07.08-22.14.33:420][555]LogFbx:Warning: Triangulating static mesh Group15821
+[2017.07.08-22.14.33:436][555]LogStaticMesh: Building static mesh scaleMan_Group15821...
+[2017.07.08-22.14.33:436][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.33:437][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15821.scaleMan_Group15821
+[2017.07.08-22.14.33:448][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15822Mat'
+[2017.07.08-22.14.33:448][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15822Mat'
+[2017.07.08-22.14.33:454][555]LogMaterial: Missing cached shader map for material Group15822Mat, compiling. 
+[2017.07.08-22.14.33:475][555]LogFbx:Warning: Triangulating static mesh Group15822
+[2017.07.08-22.14.33:551][555]LogStaticMesh: Building static mesh scaleMan_Group15822...
+[2017.07.08-22.14.33:552][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.33:558][555]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15822.scaleMan_Group15822
+[2017.07.08-22.14.33:567][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15823Mat'
+[2017.07.08-22.14.33:567][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15823Mat'
+[2017.07.08-22.14.33:572][555]LogMaterial: Missing cached shader map for material Group15823Mat, compiling. 
+[2017.07.08-22.14.33:591][555]LogFbx:Warning: Triangulating static mesh Group15823
+[2017.07.08-22.14.33:679][555]LogStaticMesh: Building static mesh scaleMan_Group15823...
+[2017.07.08-22.14.33:680][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.33:688][555]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15823.scaleMan_Group15823
+[2017.07.08-22.14.33:703][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15824Mat'
+[2017.07.08-22.14.33:703][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15824Mat'
+[2017.07.08-22.14.33:708][555]LogMaterial: Missing cached shader map for material Group15824Mat, compiling. 
+[2017.07.08-22.14.33:729][555]LogFbx:Warning: Triangulating static mesh Group15824
+[2017.07.08-22.14.33:842][555]LogStaticMesh: Building static mesh scaleMan_Group15824...
+[2017.07.08-22.14.33:843][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.33:852][555]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15824.scaleMan_Group15824
+[2017.07.08-22.14.33:868][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15825Mat'
+[2017.07.08-22.14.33:868][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15825Mat'
+[2017.07.08-22.14.33:877][555]LogMaterial: Missing cached shader map for material Group15825Mat, compiling. 
+[2017.07.08-22.14.33:900][555]LogFbx:Warning: Triangulating static mesh Group15825
+[2017.07.08-22.14.33:915][555]LogStaticMesh: Building static mesh scaleMan_Group15825...
+[2017.07.08-22.14.33:916][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.33:917][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15825.scaleMan_Group15825
+[2017.07.08-22.14.33:933][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15826Mat'
+[2017.07.08-22.14.33:933][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15826Mat'
+[2017.07.08-22.14.33:938][555]LogMaterial: Missing cached shader map for material Group15826Mat, compiling. 
+[2017.07.08-22.14.33:959][555]LogFbx:Warning: Triangulating static mesh Group15826
+[2017.07.08-22.14.33:967][555]LogStaticMesh: Building static mesh scaleMan_Group15826...
+[2017.07.08-22.14.33:967][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.33:968][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15826.scaleMan_Group15826
+[2017.07.08-22.14.33:980][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15827Mat'
+[2017.07.08-22.14.33:980][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15827Mat'
+[2017.07.08-22.14.33:986][555]LogMaterial: Missing cached shader map for material Group15827Mat, compiling. 
+[2017.07.08-22.14.34:009][555]LogFbx:Warning: Triangulating static mesh Group15827
+[2017.07.08-22.14.34:017][555]LogStaticMesh: Building static mesh scaleMan_Group15827...
+[2017.07.08-22.14.34:017][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.34:018][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15827.scaleMan_Group15827
+[2017.07.08-22.14.34:028][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15828Mat'
+[2017.07.08-22.14.34:028][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15828Mat'
+[2017.07.08-22.14.34:033][555]LogMaterial: Missing cached shader map for material Group15828Mat, compiling. 
+[2017.07.08-22.14.34:053][555]LogFbx:Warning: Triangulating static mesh Group15828
+[2017.07.08-22.14.34:056][555]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.08-22.14.34:072][555]LogStaticMesh: Building static mesh scaleMan_Group15828...
+[2017.07.08-22.14.34:072][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.34:072][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15828.scaleMan_Group15828
+[2017.07.08-22.14.34:079][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15829Mat'
+[2017.07.08-22.14.34:079][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15829Mat'
+[2017.07.08-22.14.34:084][555]LogMaterial: Missing cached shader map for material Group15829Mat, compiling. 
+[2017.07.08-22.14.34:104][555]LogFbx:Warning: Triangulating static mesh Group15829
+[2017.07.08-22.14.34:118][555]LogStaticMesh: Building static mesh scaleMan_Group15829...
+[2017.07.08-22.14.34:119][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.34:120][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15829.scaleMan_Group15829
+[2017.07.08-22.14.34:129][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15830Mat'
+[2017.07.08-22.14.34:129][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15830Mat'
+[2017.07.08-22.14.34:135][555]LogMaterial: Missing cached shader map for material Group15830Mat, compiling. 
+[2017.07.08-22.14.34:155][555]LogFbx:Warning: Triangulating static mesh Group15830
+[2017.07.08-22.14.34:165][555]LogStaticMesh: Building static mesh scaleMan_Group15830...
+[2017.07.08-22.14.34:166][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.34:166][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15830.scaleMan_Group15830
+[2017.07.08-22.14.34:185][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15831Mat'
+[2017.07.08-22.14.34:185][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15831Mat'
+[2017.07.08-22.14.34:191][555]LogMaterial: Missing cached shader map for material Group15831Mat, compiling. 
+[2017.07.08-22.14.34:210][555]LogFbx:Warning: Triangulating static mesh Group15831
+[2017.07.08-22.14.34:214][555]LogStaticMesh: Building static mesh scaleMan_Group15831...
+[2017.07.08-22.14.34:214][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.34:214][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15831.scaleMan_Group15831
+[2017.07.08-22.14.34:221][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15832Mat'
+[2017.07.08-22.14.34:221][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15832Mat'
+[2017.07.08-22.14.34:226][555]LogMaterial: Missing cached shader map for material Group15832Mat, compiling. 
+[2017.07.08-22.14.34:246][555]LogFbx:Warning: Triangulating static mesh Group15832
+[2017.07.08-22.14.34:264][555]LogStaticMesh: Building static mesh scaleMan_Group15832...
+[2017.07.08-22.14.34:264][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.34:264][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15832.scaleMan_Group15832
+[2017.07.08-22.14.34:273][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15833Mat'
+[2017.07.08-22.14.34:273][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15833Mat'
+[2017.07.08-22.14.34:277][555]LogMaterial: Missing cached shader map for material Group15833Mat, compiling. 
+[2017.07.08-22.14.34:298][555]LogFbx:Warning: Triangulating static mesh Group15833
+[2017.07.08-22.14.34:859][555]LogStaticMesh: Building static mesh scaleMan_Group15833...
+[2017.07.08-22.14.34:869][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.34:932][555]LogStaticMesh: Built static mesh [0.07s] /Game/meshes/utilities/scaleMan_Group15833.scaleMan_Group15833
+[2017.07.08-22.14.34:968][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15834Mat'
+[2017.07.08-22.14.34:968][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15834Mat'
+[2017.07.08-22.14.34:973][555]LogMaterial: Missing cached shader map for material Group15834Mat, compiling. 
+[2017.07.08-22.14.34:994][555]LogFbx:Warning: Triangulating static mesh Group15834
+[2017.07.08-22.14.35:038][555]LogStaticMesh: Building static mesh scaleMan_Group15834...
+[2017.07.08-22.14.35:038][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.35:042][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15834.scaleMan_Group15834
+[2017.07.08-22.14.35:053][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15835Mat'
+[2017.07.08-22.14.35:053][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15835Mat'
+[2017.07.08-22.14.35:058][555]LogMaterial: Missing cached shader map for material Group15835Mat, compiling. 
+[2017.07.08-22.14.35:080][555]LogFbx:Warning: Triangulating static mesh Group15835
+[2017.07.08-22.14.35:128][555]LogStaticMesh: Building static mesh scaleMan_Group15835...
+[2017.07.08-22.14.35:128][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.35:132][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15835.scaleMan_Group15835
+[2017.07.08-22.14.35:145][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15836Mat'
+[2017.07.08-22.14.35:145][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15836Mat'
+[2017.07.08-22.14.35:149][555]LogMaterial: Missing cached shader map for material Group15836Mat, compiling. 
+[2017.07.08-22.14.35:170][555]LogFbx:Warning: Triangulating static mesh Group15836
+[2017.07.08-22.14.35:245][555]LogStaticMesh: Building static mesh scaleMan_Group15836...
+[2017.07.08-22.14.35:245][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.35:252][555]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15836.scaleMan_Group15836
+[2017.07.08-22.14.35:264][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15837Mat'
+[2017.07.08-22.14.35:264][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15837Mat'
+[2017.07.08-22.14.35:268][555]LogMaterial: Missing cached shader map for material Group15837Mat, compiling. 
+[2017.07.08-22.14.35:290][555]LogFbx:Warning: Triangulating static mesh Group15837
+[2017.07.08-22.14.35:296][555]LogStaticMesh: Building static mesh scaleMan_Group15837...
+[2017.07.08-22.14.35:297][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.35:297][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15837.scaleMan_Group15837
+[2017.07.08-22.14.35:305][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15838Mat'
+[2017.07.08-22.14.35:305][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15838Mat'
+[2017.07.08-22.14.35:309][555]LogMaterial: Missing cached shader map for material Group15838Mat, compiling. 
+[2017.07.08-22.14.35:327][555]LogFbx:Warning: Triangulating static mesh Group15838
+[2017.07.08-22.14.35:337][555]LogStaticMesh: Building static mesh scaleMan_Group15838...
+[2017.07.08-22.14.35:337][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.35:338][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15838.scaleMan_Group15838
+[2017.07.08-22.14.35:353][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15839Mat'
+[2017.07.08-22.14.35:353][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15839Mat'
+[2017.07.08-22.14.35:358][555]LogMaterial: Missing cached shader map for material Group15839Mat, compiling. 
+[2017.07.08-22.14.35:379][555]LogFbx:Warning: Triangulating static mesh Group15839
+[2017.07.08-22.14.35:385][555]LogStaticMesh: Building static mesh scaleMan_Group15839...
+[2017.07.08-22.14.35:385][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.35:386][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15839.scaleMan_Group15839
+[2017.07.08-22.14.35:393][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15840Mat'
+[2017.07.08-22.14.35:394][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15840Mat'
+[2017.07.08-22.14.35:399][555]LogMaterial: Missing cached shader map for material Group15840Mat, compiling. 
+[2017.07.08-22.14.35:421][555]LogFbx:Warning: Triangulating static mesh Group15840
+[2017.07.08-22.14.35:427][555]LogStaticMesh: Building static mesh scaleMan_Group15840...
+[2017.07.08-22.14.35:427][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.35:427][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15840.scaleMan_Group15840
+[2017.07.08-22.14.35:434][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15841Mat'
+[2017.07.08-22.14.35:434][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15841Mat'
+[2017.07.08-22.14.35:446][555]LogMaterial: Missing cached shader map for material Group15841Mat, compiling. 
+[2017.07.08-22.14.35:463][555]LogFbx:Warning: Triangulating static mesh Group15841
+[2017.07.08-22.14.35:470][555]LogStaticMesh: Building static mesh scaleMan_Group15841...
+[2017.07.08-22.14.35:470][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.35:471][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15841.scaleMan_Group15841
+[2017.07.08-22.14.35:480][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15842Mat'
+[2017.07.08-22.14.35:480][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15842Mat'
+[2017.07.08-22.14.35:486][555]LogMaterial: Missing cached shader map for material Group15842Mat, compiling. 
+[2017.07.08-22.14.35:505][555]LogFbx:Warning: Triangulating static mesh Group15842
+[2017.07.08-22.14.35:557][555]LogStaticMesh: Building static mesh scaleMan_Group15842...
+[2017.07.08-22.14.35:558][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.35:562][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15842.scaleMan_Group15842
+[2017.07.08-22.14.35:571][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15843Mat'
+[2017.07.08-22.14.35:571][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15843Mat'
+[2017.07.08-22.14.35:576][555]LogMaterial: Missing cached shader map for material Group15843Mat, compiling. 
+[2017.07.08-22.14.35:592][555]LogFbx:Warning: Triangulating static mesh Group15843
+[2017.07.08-22.14.35:640][555]LogStaticMesh: Building static mesh scaleMan_Group15843...
+[2017.07.08-22.14.35:641][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.35:645][555]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15843.scaleMan_Group15843
+[2017.07.08-22.14.35:660][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15844Mat'
+[2017.07.08-22.14.35:660][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15844Mat'
+[2017.07.08-22.14.35:664][555]LogMaterial: Missing cached shader map for material Group15844Mat, compiling. 
+[2017.07.08-22.14.35:681][555]LogFbx:Warning: Triangulating static mesh Group15844
+[2017.07.08-22.14.35:746][555]LogStaticMesh: Building static mesh scaleMan_Group15844...
+[2017.07.08-22.14.35:747][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.35:751][555]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15844.scaleMan_Group15844
+[2017.07.08-22.14.35:768][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15845Mat'
+[2017.07.08-22.14.35:768][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15845Mat'
+[2017.07.08-22.14.35:776][555]LogMaterial: Missing cached shader map for material Group15845Mat, compiling. 
+[2017.07.08-22.14.35:796][555]LogFbx:Warning: Triangulating static mesh Group15845
+[2017.07.08-22.14.35:826][555]LogStaticMesh: Building static mesh scaleMan_Group15845...
+[2017.07.08-22.14.35:826][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.35:829][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15845.scaleMan_Group15845
+[2017.07.08-22.14.35:836][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15846Mat'
+[2017.07.08-22.14.35:837][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15846Mat'
+[2017.07.08-22.14.35:841][555]LogMaterial: Missing cached shader map for material Group15846Mat, compiling. 
+[2017.07.08-22.14.35:862][555]LogFbx:Warning: Triangulating static mesh Group15846
+[2017.07.08-22.14.35:873][555]LogStaticMesh: Building static mesh scaleMan_Group15846...
+[2017.07.08-22.14.35:873][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.35:875][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15846.scaleMan_Group15846
+[2017.07.08-22.14.35:882][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15847Mat'
+[2017.07.08-22.14.35:882][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15847Mat'
+[2017.07.08-22.14.35:887][555]LogMaterial: Missing cached shader map for material Group15847Mat, compiling. 
+[2017.07.08-22.14.35:905][555]LogFbx:Warning: Triangulating static mesh Group15847
+[2017.07.08-22.14.35:917][555]LogStaticMesh: Building static mesh scaleMan_Group15847...
+[2017.07.08-22.14.35:917][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.35:918][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15847.scaleMan_Group15847
+[2017.07.08-22.14.35:926][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15848Mat'
+[2017.07.08-22.14.35:926][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15848Mat'
+[2017.07.08-22.14.35:932][555]LogMaterial: Missing cached shader map for material Group15848Mat, compiling. 
+[2017.07.08-22.14.35:950][555]LogFbx:Warning: Triangulating static mesh Group15848
+[2017.07.08-22.14.35:959][555]LogStaticMesh: Building static mesh scaleMan_Group15848...
+[2017.07.08-22.14.35:959][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.35:960][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15848.scaleMan_Group15848
+[2017.07.08-22.14.35:972][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15849Mat'
+[2017.07.08-22.14.35:972][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15849Mat'
+[2017.07.08-22.14.35:978][555]LogMaterial: Missing cached shader map for material Group15849Mat, compiling. 
+[2017.07.08-22.14.35:996][555]LogFbx:Warning: Triangulating static mesh Group15849
+[2017.07.08-22.14.36:010][555]LogStaticMesh: Building static mesh scaleMan_Group15849...
+[2017.07.08-22.14.36:011][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.36:012][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15849.scaleMan_Group15849
+[2017.07.08-22.14.36:024][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15850Mat'
+[2017.07.08-22.14.36:024][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15850Mat'
+[2017.07.08-22.14.36:030][555]LogMaterial: Missing cached shader map for material Group15850Mat, compiling. 
+[2017.07.08-22.14.36:052][555]LogFbx:Warning: Triangulating static mesh Group15850
+[2017.07.08-22.14.36:063][555]LogStaticMesh: Building static mesh scaleMan_Group15850...
+[2017.07.08-22.14.36:063][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.36:064][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15850.scaleMan_Group15850
+[2017.07.08-22.14.36:071][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15851Mat'
+[2017.07.08-22.14.36:071][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15851Mat'
+[2017.07.08-22.14.36:076][555]LogMaterial: Missing cached shader map for material Group15851Mat, compiling. 
+[2017.07.08-22.14.36:095][555]LogFbx:Warning: Triangulating static mesh Group15851
+[2017.07.08-22.14.36:108][555]LogStaticMesh: Building static mesh scaleMan_Group15851...
+[2017.07.08-22.14.36:108][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.36:109][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15851.scaleMan_Group15851
+[2017.07.08-22.14.36:116][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15852Mat'
+[2017.07.08-22.14.36:116][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15852Mat'
+[2017.07.08-22.14.36:122][555]LogMaterial: Missing cached shader map for material Group15852Mat, compiling. 
+[2017.07.08-22.14.36:143][555]LogFbx:Warning: Triangulating static mesh Group15852
+[2017.07.08-22.14.36:152][555]LogStaticMesh: Building static mesh scaleMan_Group15852...
+[2017.07.08-22.14.36:152][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.36:153][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15852.scaleMan_Group15852
+[2017.07.08-22.14.36:159][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15853Mat'
+[2017.07.08-22.14.36:160][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15853Mat'
+[2017.07.08-22.14.36:164][555]LogMaterial: Missing cached shader map for material Group15853Mat, compiling. 
+[2017.07.08-22.14.36:184][555]LogFbx:Warning: Triangulating static mesh Group15853
+[2017.07.08-22.14.36:189][555]LogStaticMesh: Building static mesh scaleMan_Group15853...
+[2017.07.08-22.14.36:189][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.36:190][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15853.scaleMan_Group15853
+[2017.07.08-22.14.36:198][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15854Mat'
+[2017.07.08-22.14.36:198][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15854Mat'
+[2017.07.08-22.14.36:204][555]LogMaterial: Missing cached shader map for material Group15854Mat, compiling. 
+[2017.07.08-22.14.36:224][555]LogFbx:Warning: Triangulating static mesh Group15854
+[2017.07.08-22.14.36:233][555]LogStaticMesh: Building static mesh scaleMan_Group15854...
+[2017.07.08-22.14.36:233][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.36:234][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15854.scaleMan_Group15854
+[2017.07.08-22.14.36:243][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15855Mat'
+[2017.07.08-22.14.36:243][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15855Mat'
+[2017.07.08-22.14.36:249][555]LogMaterial: Missing cached shader map for material Group15855Mat, compiling. 
+[2017.07.08-22.14.36:271][555]LogFbx:Warning: Triangulating static mesh Group15855
+[2017.07.08-22.14.36:277][555]LogStaticMesh: Building static mesh scaleMan_Group15855...
+[2017.07.08-22.14.36:277][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.36:278][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15855.scaleMan_Group15855
+[2017.07.08-22.14.36:285][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15856Mat'
+[2017.07.08-22.14.36:285][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15856Mat'
+[2017.07.08-22.14.36:295][555]LogMaterial: Missing cached shader map for material Group15856Mat, compiling. 
+[2017.07.08-22.14.36:317][555]LogFbx:Warning: Triangulating static mesh Group15856
+[2017.07.08-22.14.36:330][555]LogStaticMesh: Building static mesh scaleMan_Group15856...
+[2017.07.08-22.14.36:330][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.36:331][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15856.scaleMan_Group15856
+[2017.07.08-22.14.36:339][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15857Mat'
+[2017.07.08-22.14.36:339][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15857Mat'
+[2017.07.08-22.14.36:344][555]LogMaterial: Missing cached shader map for material Group15857Mat, compiling. 
+[2017.07.08-22.14.36:365][555]LogFbx:Warning: Triangulating static mesh Group15857
+[2017.07.08-22.14.36:388][555]LogStaticMesh: Building static mesh scaleMan_Group15857...
+[2017.07.08-22.14.36:388][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.36:390][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15857.scaleMan_Group15857
+[2017.07.08-22.14.36:401][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15858Mat'
+[2017.07.08-22.14.36:401][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15858Mat'
+[2017.07.08-22.14.36:408][555]LogMaterial: Missing cached shader map for material Group15858Mat, compiling. 
+[2017.07.08-22.14.36:430][555]LogFbx:Warning: Triangulating static mesh Group15858
+[2017.07.08-22.14.36:471][555]LogStaticMesh: Building static mesh scaleMan_Group15858...
+[2017.07.08-22.14.36:471][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.36:474][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15858.scaleMan_Group15858
+[2017.07.08-22.14.36:483][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15859Mat'
+[2017.07.08-22.14.36:484][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15859Mat'
+[2017.07.08-22.14.36:490][555]LogMaterial: Missing cached shader map for material Group15859Mat, compiling. 
+[2017.07.08-22.14.36:513][555]LogFbx:Warning: Triangulating static mesh Group15859
+[2017.07.08-22.14.36:553][555]LogStaticMesh: Building static mesh scaleMan_Group15859...
+[2017.07.08-22.14.36:554][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.36:558][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15859.scaleMan_Group15859
+[2017.07.08-22.14.36:567][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15860Mat'
+[2017.07.08-22.14.36:567][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15860Mat'
+[2017.07.08-22.14.36:571][555]LogMaterial: Missing cached shader map for material Group15860Mat, compiling. 
+[2017.07.08-22.14.36:593][555]LogFbx:Warning: Triangulating static mesh Group15860
+[2017.07.08-22.14.36:639][555]LogStaticMesh: Building static mesh scaleMan_Group15860...
+[2017.07.08-22.14.36:639][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.36:642][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15860.scaleMan_Group15860
+[2017.07.08-22.14.36:653][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15861Mat'
+[2017.07.08-22.14.36:653][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15861Mat'
+[2017.07.08-22.14.36:660][555]LogMaterial: Missing cached shader map for material Group15861Mat, compiling. 
+[2017.07.08-22.14.36:681][555]LogFbx:Warning: Triangulating static mesh Group15861
+[2017.07.08-22.14.36:735][555]LogStaticMesh: Building static mesh scaleMan_Group15861...
+[2017.07.08-22.14.36:736][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.36:740][555]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15861.scaleMan_Group15861
+[2017.07.08-22.14.36:752][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15862Mat'
+[2017.07.08-22.14.36:752][555]LogLinker: Can't find file '/Game/meshes/utilities/Group15862Mat'
+[2017.07.08-22.14.36:758][555]LogMaterial: Missing cached shader map for material Group15862Mat, compiling. 
+[2017.07.08-22.14.36:779][555]LogFbx:Warning: Triangulating static mesh Group15862
+[2017.07.08-22.14.36:791][555]LogStaticMesh: Building static mesh scaleMan_Group15862...
+[2017.07.08-22.14.36:791][555]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.14.36:792][555]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15862.scaleMan_Group15862
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:831][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:832][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:832][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:832][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:832][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:832][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:832][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:832][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:832][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:832][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:832][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:832][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:832][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:832][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.14.36:832][555]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.19:357][990]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Boulot/cubebrush/meshes/scaleMan.OBJ)
+[2017.07.08-22.15.19:367][990]LogFbx: Loading FBX Scene from E:/Boulot/cubebrush/meshes/scaleMan.OBJ
+[2017.07.08-22.15.19:432][990]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.08-22.15.23:604][990]LogFbx: Loading FBX Scene from E:/Boulot/cubebrush/meshes/scaleMan.OBJ
+[2017.07.08-22.15.23:698][990]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.08-22.15.23:704][990]LogMaterial: Missing cached shader map for material Group15805Mat, compiling. 
+[2017.07.08-22.15.23:716][990]LogFbx:Warning: Triangulating static mesh Group15805
+[2017.07.08-22.15.23:755][990]LogStaticMesh: Building static mesh scaleMan_Group15805...
+[2017.07.08-22.15.23:756][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.23:758][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15805.scaleMan_Group15805
+[2017.07.08-22.15.23:767][990]LogMaterial: Missing cached shader map for material Group15806Mat, compiling. 
+[2017.07.08-22.15.23:781][990]LogFbx:Warning: Triangulating static mesh Group15806
+[2017.07.08-22.15.23:861][990]LogStaticMesh: Building static mesh scaleMan_Group15806...
+[2017.07.08-22.15.23:862][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.23:870][990]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15806.scaleMan_Group15806
+[2017.07.08-22.15.23:884][990]LogMaterial: Missing cached shader map for material Group15807Mat, compiling. 
+[2017.07.08-22.15.23:904][990]LogFbx:Warning: Triangulating static mesh Group15807
+[2017.07.08-22.15.23:910][990]LogStaticMesh: Building static mesh scaleMan_Group15807...
+[2017.07.08-22.15.23:910][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.23:911][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15807.scaleMan_Group15807
+[2017.07.08-22.15.23:921][990]LogMaterial: Missing cached shader map for material Group15808Mat, compiling. 
+[2017.07.08-22.15.23:943][990]LogFbx:Warning: Triangulating static mesh Group15808
+[2017.07.08-22.15.23:951][990]LogStaticMesh: Building static mesh scaleMan_Group15808...
+[2017.07.08-22.15.23:951][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.23:951][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15808.scaleMan_Group15808
+[2017.07.08-22.15.23:964][990]LogMaterial: Missing cached shader map for material Group15809Mat, compiling. 
+[2017.07.08-22.15.23:985][990]LogFbx:Warning: Triangulating static mesh Group15809
+[2017.07.08-22.15.23:994][990]LogStaticMesh: Building static mesh scaleMan_Group15809...
+[2017.07.08-22.15.23:994][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.23:995][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15809.scaleMan_Group15809
+[2017.07.08-22.15.24:006][990]LogMaterial: Missing cached shader map for material Group15810Mat, compiling. 
+[2017.07.08-22.15.24:026][990]LogFbx:Warning: Triangulating static mesh Group15810
+[2017.07.08-22.15.24:034][990]LogStaticMesh: Building static mesh scaleMan_Group15810...
+[2017.07.08-22.15.24:034][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.24:034][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15810.scaleMan_Group15810
+[2017.07.08-22.15.24:047][990]LogMaterial: Missing cached shader map for material Group15811Mat, compiling. 
+[2017.07.08-22.15.24:063][990]LogFbx:Warning: Triangulating static mesh Group15811
+[2017.07.08-22.15.24:071][990]LogStaticMesh: Building static mesh scaleMan_Group15811...
+[2017.07.08-22.15.24:071][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.24:072][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15811.scaleMan_Group15811
+[2017.07.08-22.15.24:082][990]LogMaterial: Missing cached shader map for material Group15812Mat, compiling. 
+[2017.07.08-22.15.24:098][990]LogFbx:Warning: Triangulating static mesh Group15812
+[2017.07.08-22.15.24:147][990]LogStaticMesh: Building static mesh scaleMan_Group15812...
+[2017.07.08-22.15.24:148][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.24:152][990]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15812.scaleMan_Group15812
+[2017.07.08-22.15.24:164][990]LogMaterial: Missing cached shader map for material Group15813Mat, compiling. 
+[2017.07.08-22.15.24:183][990]LogFbx:Warning: Triangulating static mesh Group15813
+[2017.07.08-22.15.24:238][990]LogStaticMesh: Building static mesh scaleMan_Group15813...
+[2017.07.08-22.15.24:239][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.24:244][990]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15813.scaleMan_Group15813
+[2017.07.08-22.15.24:258][990]LogMaterial: Missing cached shader map for material Group15814Mat, compiling. 
+[2017.07.08-22.15.24:278][990]LogFbx:Warning: Triangulating static mesh Group15814
+[2017.07.08-22.15.24:338][990]LogStaticMesh: Building static mesh scaleMan_Group15814...
+[2017.07.08-22.15.24:339][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.24:343][990]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15814.scaleMan_Group15814
+[2017.07.08-22.15.24:359][990]LogMaterial: Missing cached shader map for material Group15815Mat, compiling. 
+[2017.07.08-22.15.24:379][990]LogFbx:Warning: Triangulating static mesh Group15815
+[2017.07.08-22.15.24:407][990]LogStaticMesh: Building static mesh scaleMan_Group15815...
+[2017.07.08-22.15.24:407][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.24:410][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15815.scaleMan_Group15815
+[2017.07.08-22.15.24:422][990]LogMaterial: Missing cached shader map for material Group15816Mat, compiling. 
+[2017.07.08-22.15.24:440][990]LogFbx:Warning: Triangulating static mesh Group15816
+[2017.07.08-22.15.24:452][990]LogStaticMesh: Building static mesh scaleMan_Group15816...
+[2017.07.08-22.15.24:452][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.24:452][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15816.scaleMan_Group15816
+[2017.07.08-22.15.24:463][990]LogMaterial: Missing cached shader map for material Group15817Mat, compiling. 
+[2017.07.08-22.15.24:483][990]LogFbx:Warning: Triangulating static mesh Group15817
+[2017.07.08-22.15.24:494][990]LogStaticMesh: Building static mesh scaleMan_Group15817...
+[2017.07.08-22.15.24:494][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.24:495][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15817.scaleMan_Group15817
+[2017.07.08-22.15.24:505][990]LogMaterial: Missing cached shader map for material Group15818Mat, compiling. 
+[2017.07.08-22.15.24:525][990]LogFbx:Warning: Triangulating static mesh Group15818
+[2017.07.08-22.15.24:533][990]LogStaticMesh: Building static mesh scaleMan_Group15818...
+[2017.07.08-22.15.24:533][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.24:534][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15818.scaleMan_Group15818
+[2017.07.08-22.15.24:545][990]LogMaterial: Missing cached shader map for material Group15819Mat, compiling. 
+[2017.07.08-22.15.24:563][990]LogFbx:Warning: Triangulating static mesh Group15819
+[2017.07.08-22.15.24:574][990]LogStaticMesh: Building static mesh scaleMan_Group15819...
+[2017.07.08-22.15.24:574][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.24:576][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15819.scaleMan_Group15819
+[2017.07.08-22.15.24:587][990]LogMaterial: Missing cached shader map for material Group15820Mat, compiling. 
+[2017.07.08-22.15.24:609][990]LogFbx:Warning: Triangulating static mesh Group15820
+[2017.07.08-22.15.24:621][990]LogStaticMesh: Building static mesh scaleMan_Group15820...
+[2017.07.08-22.15.24:621][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.24:622][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15820.scaleMan_Group15820
+[2017.07.08-22.15.24:633][990]LogMaterial: Missing cached shader map for material Group15821Mat, compiling. 
+[2017.07.08-22.15.24:654][990]LogFbx:Warning: Triangulating static mesh Group15821
+[2017.07.08-22.15.24:670][990]LogStaticMesh: Building static mesh scaleMan_Group15821...
+[2017.07.08-22.15.24:670][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.24:671][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15821.scaleMan_Group15821
+[2017.07.08-22.15.24:682][990]LogMaterial: Missing cached shader map for material Group15822Mat, compiling. 
+[2017.07.08-22.15.24:700][990]LogFbx:Warning: Triangulating static mesh Group15822
+[2017.07.08-22.15.24:771][990]LogStaticMesh: Building static mesh scaleMan_Group15822...
+[2017.07.08-22.15.24:772][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.24:779][990]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15822.scaleMan_Group15822
+[2017.07.08-22.15.24:793][990]LogMaterial: Missing cached shader map for material Group15823Mat, compiling. 
+[2017.07.08-22.15.24:812][990]LogFbx:Warning: Triangulating static mesh Group15823
+[2017.07.08-22.15.24:895][990]LogStaticMesh: Building static mesh scaleMan_Group15823...
+[2017.07.08-22.15.24:896][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.24:901][990]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15823.scaleMan_Group15823
+[2017.07.08-22.15.24:915][990]LogMaterial: Missing cached shader map for material Group15824Mat, compiling. 
+[2017.07.08-22.15.24:936][990]LogFbx:Warning: Triangulating static mesh Group15824
+[2017.07.08-22.15.25:054][990]LogStaticMesh: Building static mesh scaleMan_Group15824...
+[2017.07.08-22.15.25:056][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.25:066][990]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15824.scaleMan_Group15824
+[2017.07.08-22.15.25:081][990]LogMaterial: Missing cached shader map for material Group15825Mat, compiling. 
+[2017.07.08-22.15.25:100][990]LogFbx:Warning: Triangulating static mesh Group15825
+[2017.07.08-22.15.25:112][990]LogStaticMesh: Building static mesh scaleMan_Group15825...
+[2017.07.08-22.15.25:113][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.25:113][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15825.scaleMan_Group15825
+[2017.07.08-22.15.25:125][990]LogMaterial: Missing cached shader map for material Group15826Mat, compiling. 
+[2017.07.08-22.15.25:144][990]LogFbx:Warning: Triangulating static mesh Group15826
+[2017.07.08-22.15.25:150][990]LogStaticMesh: Building static mesh scaleMan_Group15826...
+[2017.07.08-22.15.25:150][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.25:151][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15826.scaleMan_Group15826
+[2017.07.08-22.15.25:162][990]LogMaterial: Missing cached shader map for material Group15827Mat, compiling. 
+[2017.07.08-22.15.25:183][990]LogFbx:Warning: Triangulating static mesh Group15827
+[2017.07.08-22.15.25:190][990]LogStaticMesh: Building static mesh scaleMan_Group15827...
+[2017.07.08-22.15.25:190][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.25:190][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15827.scaleMan_Group15827
+[2017.07.08-22.15.25:202][990]LogMaterial: Missing cached shader map for material Group15828Mat, compiling. 
+[2017.07.08-22.15.25:222][990]LogFbx:Warning: Triangulating static mesh Group15828
+[2017.07.08-22.15.25:224][990]LogStaticMesh: Building static mesh scaleMan_Group15828...
+[2017.07.08-22.15.25:224][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.25:224][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15828.scaleMan_Group15828
+[2017.07.08-22.15.25:235][990]LogMaterial: Missing cached shader map for material Group15829Mat, compiling. 
+[2017.07.08-22.15.25:255][990]LogFbx:Warning: Triangulating static mesh Group15829
+[2017.07.08-22.15.25:287][990]LogStaticMesh: Building static mesh scaleMan_Group15829...
+[2017.07.08-22.15.25:287][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.25:289][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15829.scaleMan_Group15829
+[2017.07.08-22.15.25:299][990]LogMaterial: Missing cached shader map for material Group15830Mat, compiling. 
+[2017.07.08-22.15.25:320][990]LogFbx:Warning: Triangulating static mesh Group15830
+[2017.07.08-22.15.25:328][990]LogStaticMesh: Building static mesh scaleMan_Group15830...
+[2017.07.08-22.15.25:328][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.25:329][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15830.scaleMan_Group15830
+[2017.07.08-22.15.25:342][990]LogMaterial: Missing cached shader map for material Group15831Mat, compiling. 
+[2017.07.08-22.15.25:361][990]LogFbx:Warning: Triangulating static mesh Group15831
+[2017.07.08-22.15.25:366][990]LogStaticMesh: Building static mesh scaleMan_Group15831...
+[2017.07.08-22.15.25:366][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.25:366][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15831.scaleMan_Group15831
+[2017.07.08-22.15.25:381][990]LogMaterial: Missing cached shader map for material Group15832Mat, compiling. 
+[2017.07.08-22.15.25:398][990]LogFbx:Warning: Triangulating static mesh Group15832
+[2017.07.08-22.15.25:406][990]LogStaticMesh: Building static mesh scaleMan_Group15832...
+[2017.07.08-22.15.25:406][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.25:407][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15832.scaleMan_Group15832
+[2017.07.08-22.15.25:417][990]LogMaterial: Missing cached shader map for material Group15833Mat, compiling. 
+[2017.07.08-22.15.25:436][990]LogFbx:Warning: Triangulating static mesh Group15833
+[2017.07.08-22.15.25:995][990]LogStaticMesh: Building static mesh scaleMan_Group15833...
+[2017.07.08-22.15.26:002][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.26:067][990]LogStaticMesh: Built static mesh [0.07s] /Game/meshes/utilities/scaleMan_Group15833.scaleMan_Group15833
+[2017.07.08-22.15.26:105][990]LogMaterial: Missing cached shader map for material Group15834Mat, compiling. 
+[2017.07.08-22.15.26:124][990]LogFbx:Warning: Triangulating static mesh Group15834
+[2017.07.08-22.15.26:168][990]LogStaticMesh: Building static mesh scaleMan_Group15834...
+[2017.07.08-22.15.26:169][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.26:173][990]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15834.scaleMan_Group15834
+[2017.07.08-22.15.26:185][990]LogMaterial: Missing cached shader map for material Group15835Mat, compiling. 
+[2017.07.08-22.15.26:204][990]LogFbx:Warning: Triangulating static mesh Group15835
+[2017.07.08-22.15.26:251][990]LogStaticMesh: Building static mesh scaleMan_Group15835...
+[2017.07.08-22.15.26:251][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.26:255][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15835.scaleMan_Group15835
+[2017.07.08-22.15.26:268][990]LogMaterial: Missing cached shader map for material Group15836Mat, compiling. 
+[2017.07.08-22.15.26:285][990]LogFbx:Warning: Triangulating static mesh Group15836
+[2017.07.08-22.15.26:358][990]LogStaticMesh: Building static mesh scaleMan_Group15836...
+[2017.07.08-22.15.26:359][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.26:365][990]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15836.scaleMan_Group15836
+[2017.07.08-22.15.26:381][990]LogMaterial: Missing cached shader map for material Group15837Mat, compiling. 
+[2017.07.08-22.15.26:398][990]LogFbx:Warning: Triangulating static mesh Group15837
+[2017.07.08-22.15.26:405][990]LogStaticMesh: Building static mesh scaleMan_Group15837...
+[2017.07.08-22.15.26:405][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.26:406][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15837.scaleMan_Group15837
+[2017.07.08-22.15.26:420][990]LogMaterial: Missing cached shader map for material Group15838Mat, compiling. 
+[2017.07.08-22.15.26:440][990]LogFbx:Warning: Triangulating static mesh Group15838
+[2017.07.08-22.15.26:446][990]LogStaticMesh: Building static mesh scaleMan_Group15838...
+[2017.07.08-22.15.26:446][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.26:447][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15838.scaleMan_Group15838
+[2017.07.08-22.15.26:459][990]LogMaterial: Missing cached shader map for material Group15839Mat, compiling. 
+[2017.07.08-22.15.26:480][990]LogFbx:Warning: Triangulating static mesh Group15839
+[2017.07.08-22.15.26:488][990]LogStaticMesh: Building static mesh scaleMan_Group15839...
+[2017.07.08-22.15.26:488][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.26:488][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15839.scaleMan_Group15839
+[2017.07.08-22.15.26:500][990]LogMaterial: Missing cached shader map for material Group15840Mat, compiling. 
+[2017.07.08-22.15.26:521][990]LogFbx:Warning: Triangulating static mesh Group15840
+[2017.07.08-22.15.26:528][990]LogStaticMesh: Building static mesh scaleMan_Group15840...
+[2017.07.08-22.15.26:528][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.26:528][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15840.scaleMan_Group15840
+[2017.07.08-22.15.26:538][990]LogMaterial: Missing cached shader map for material Group15841Mat, compiling. 
+[2017.07.08-22.15.26:557][990]LogFbx:Warning: Triangulating static mesh Group15841
+[2017.07.08-22.15.26:563][990]LogStaticMesh: Building static mesh scaleMan_Group15841...
+[2017.07.08-22.15.26:563][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.26:564][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15841.scaleMan_Group15841
+[2017.07.08-22.15.26:574][990]LogMaterial: Missing cached shader map for material Group15842Mat, compiling. 
+[2017.07.08-22.15.26:594][990]LogFbx:Warning: Triangulating static mesh Group15842
+[2017.07.08-22.15.26:645][990]LogStaticMesh: Building static mesh scaleMan_Group15842...
+[2017.07.08-22.15.26:645][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.26:649][990]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15842.scaleMan_Group15842
+[2017.07.08-22.15.26:664][990]LogMaterial: Missing cached shader map for material Group15843Mat, compiling. 
+[2017.07.08-22.15.26:686][990]LogFbx:Warning: Triangulating static mesh Group15843
+[2017.07.08-22.15.26:734][990]LogStaticMesh: Building static mesh scaleMan_Group15843...
+[2017.07.08-22.15.26:735][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.26:740][990]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15843.scaleMan_Group15843
+[2017.07.08-22.15.26:754][990]LogMaterial: Missing cached shader map for material Group15844Mat, compiling. 
+[2017.07.08-22.15.26:772][990]LogFbx:Warning: Triangulating static mesh Group15844
+[2017.07.08-22.15.26:835][990]LogStaticMesh: Building static mesh scaleMan_Group15844...
+[2017.07.08-22.15.26:836][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.26:842][990]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15844.scaleMan_Group15844
+[2017.07.08-22.15.26:856][990]LogMaterial: Missing cached shader map for material Group15845Mat, compiling. 
+[2017.07.08-22.15.26:877][990]LogFbx:Warning: Triangulating static mesh Group15845
+[2017.07.08-22.15.26:907][990]LogStaticMesh: Building static mesh scaleMan_Group15845...
+[2017.07.08-22.15.26:907][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.26:909][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15845.scaleMan_Group15845
+[2017.07.08-22.15.26:920][990]LogMaterial: Missing cached shader map for material Group15846Mat, compiling. 
+[2017.07.08-22.15.26:945][990]LogFbx:Warning: Triangulating static mesh Group15846
+[2017.07.08-22.15.26:955][990]LogStaticMesh: Building static mesh scaleMan_Group15846...
+[2017.07.08-22.15.26:955][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.26:956][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15846.scaleMan_Group15846
+[2017.07.08-22.15.26:966][990]LogMaterial: Missing cached shader map for material Group15847Mat, compiling. 
+[2017.07.08-22.15.26:985][990]LogFbx:Warning: Triangulating static mesh Group15847
+[2017.07.08-22.15.26:997][990]LogStaticMesh: Building static mesh scaleMan_Group15847...
+[2017.07.08-22.15.26:997][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.26:998][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15847.scaleMan_Group15847
+[2017.07.08-22.15.27:008][990]LogMaterial: Missing cached shader map for material Group15848Mat, compiling. 
+[2017.07.08-22.15.27:026][990]LogFbx:Warning: Triangulating static mesh Group15848
+[2017.07.08-22.15.27:035][990]LogStaticMesh: Building static mesh scaleMan_Group15848...
+[2017.07.08-22.15.27:035][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.27:036][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15848.scaleMan_Group15848
+[2017.07.08-22.15.27:047][990]LogMaterial: Missing cached shader map for material Group15849Mat, compiling. 
+[2017.07.08-22.15.27:066][990]LogFbx:Warning: Triangulating static mesh Group15849
+[2017.07.08-22.15.27:078][990]LogStaticMesh: Building static mesh scaleMan_Group15849...
+[2017.07.08-22.15.27:078][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.27:079][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15849.scaleMan_Group15849
+[2017.07.08-22.15.27:090][990]LogMaterial: Missing cached shader map for material Group15850Mat, compiling. 
+[2017.07.08-22.15.27:108][990]LogFbx:Warning: Triangulating static mesh Group15850
+[2017.07.08-22.15.27:121][990]LogStaticMesh: Building static mesh scaleMan_Group15850...
+[2017.07.08-22.15.27:121][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.27:122][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15850.scaleMan_Group15850
+[2017.07.08-22.15.27:132][990]LogMaterial: Missing cached shader map for material Group15851Mat, compiling. 
+[2017.07.08-22.15.27:153][990]LogFbx:Warning: Triangulating static mesh Group15851
+[2017.07.08-22.15.27:168][990]LogStaticMesh: Building static mesh scaleMan_Group15851...
+[2017.07.08-22.15.27:168][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.27:169][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15851.scaleMan_Group15851
+[2017.07.08-22.15.27:183][990]LogMaterial: Missing cached shader map for material Group15852Mat, compiling. 
+[2017.07.08-22.15.27:204][990]LogFbx:Warning: Triangulating static mesh Group15852
+[2017.07.08-22.15.27:213][990]LogStaticMesh: Building static mesh scaleMan_Group15852...
+[2017.07.08-22.15.27:214][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.27:214][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15852.scaleMan_Group15852
+[2017.07.08-22.15.27:226][990]LogMaterial: Missing cached shader map for material Group15853Mat, compiling. 
+[2017.07.08-22.15.27:245][990]LogFbx:Warning: Triangulating static mesh Group15853
+[2017.07.08-22.15.27:250][990]LogStaticMesh: Building static mesh scaleMan_Group15853...
+[2017.07.08-22.15.27:250][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.27:250][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15853.scaleMan_Group15853
+[2017.07.08-22.15.27:261][990]LogMaterial: Missing cached shader map for material Group15854Mat, compiling. 
+[2017.07.08-22.15.27:284][990]LogFbx:Warning: Triangulating static mesh Group15854
+[2017.07.08-22.15.27:294][990]LogStaticMesh: Building static mesh scaleMan_Group15854...
+[2017.07.08-22.15.27:294][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.27:295][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15854.scaleMan_Group15854
+[2017.07.08-22.15.27:305][990]LogMaterial: Missing cached shader map for material Group15855Mat, compiling. 
+[2017.07.08-22.15.27:325][990]LogFbx:Warning: Triangulating static mesh Group15855
+[2017.07.08-22.15.27:332][990]LogStaticMesh: Building static mesh scaleMan_Group15855...
+[2017.07.08-22.15.27:332][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.27:333][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15855.scaleMan_Group15855
+[2017.07.08-22.15.27:342][990]LogMaterial: Missing cached shader map for material Group15856Mat, compiling. 
+[2017.07.08-22.15.27:362][990]LogFbx:Warning: Triangulating static mesh Group15856
+[2017.07.08-22.15.27:374][990]LogStaticMesh: Building static mesh scaleMan_Group15856...
+[2017.07.08-22.15.27:374][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.27:375][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15856.scaleMan_Group15856
+[2017.07.08-22.15.27:386][990]LogMaterial: Missing cached shader map for material Group15857Mat, compiling. 
+[2017.07.08-22.15.27:406][990]LogFbx:Warning: Triangulating static mesh Group15857
+[2017.07.08-22.15.27:429][990]LogStaticMesh: Building static mesh scaleMan_Group15857...
+[2017.07.08-22.15.27:429][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.27:431][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15857.scaleMan_Group15857
+[2017.07.08-22.15.27:441][990]LogMaterial: Missing cached shader map for material Group15858Mat, compiling. 
+[2017.07.08-22.15.27:460][990]LogFbx:Warning: Triangulating static mesh Group15858
+[2017.07.08-22.15.27:496][990]LogStaticMesh: Building static mesh scaleMan_Group15858...
+[2017.07.08-22.15.27:496][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.27:500][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15858.scaleMan_Group15858
+[2017.07.08-22.15.27:512][990]LogMaterial: Missing cached shader map for material Group15859Mat, compiling. 
+[2017.07.08-22.15.27:533][990]LogFbx:Warning: Triangulating static mesh Group15859
+[2017.07.08-22.15.27:573][990]LogStaticMesh: Building static mesh scaleMan_Group15859...
+[2017.07.08-22.15.27:573][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.27:577][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15859.scaleMan_Group15859
+[2017.07.08-22.15.27:592][990]LogMaterial: Missing cached shader map for material Group15860Mat, compiling. 
+[2017.07.08-22.15.27:613][990]LogFbx:Warning: Triangulating static mesh Group15860
+[2017.07.08-22.15.27:658][990]LogStaticMesh: Building static mesh scaleMan_Group15860...
+[2017.07.08-22.15.27:659][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.27:663][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15860.scaleMan_Group15860
+[2017.07.08-22.15.27:676][990]LogMaterial: Missing cached shader map for material Group15861Mat, compiling. 
+[2017.07.08-22.15.27:696][990]LogFbx:Warning: Triangulating static mesh Group15861
+[2017.07.08-22.15.27:746][990]LogStaticMesh: Building static mesh scaleMan_Group15861...
+[2017.07.08-22.15.27:746][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.27:751][990]LogStaticMesh: Built static mesh [0.01s] /Game/meshes/utilities/scaleMan_Group15861.scaleMan_Group15861
+[2017.07.08-22.15.27:766][990]LogMaterial: Missing cached shader map for material Group15862Mat, compiling. 
+[2017.07.08-22.15.27:785][990]LogFbx:Warning: Triangulating static mesh Group15862
+[2017.07.08-22.15.27:798][990]LogStaticMesh: Building static mesh scaleMan_Group15862...
+[2017.07.08-22.15.27:798][990]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.07.08-22.15.27:799][990]LogStaticMesh: Built static mesh [0.00s] /Game/meshes/utilities/scaleMan_Group15862.scaleMan_Group15862
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:839][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:840][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:840][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:840][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:840][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:840][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:840][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:840][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:840][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:840][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:840][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:840][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:840][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:840][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:840][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:840][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:840][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:840][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:840][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.27:840][990]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.08-22.15.28:002][991]LogHttp:Warning: 0000000072EC5900: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.07.08-22.15.28:002][991]LogHttp:Warning: 0000000072EC5900: libcurl info message cache 0 (Connection 1 seems to be dead!)
+[2017.07.08-22.15.28:002][991]LogHttp:Warning: 0000000072EC5900: libcurl info message cache 1 (Closing connection 1)
+[2017.07.08-22.15.28:002][991]LogHttp:Warning: 0000000072EC5900: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.07.08-22.15.28:002][991]LogHttp:Warning: 0000000072EC5900: libcurl info message cache 3 (  Trying 52.70.206.117...)
+[2017.07.08-22.15.28:002][991]LogHttp:Warning: 0000000072EC5900: libcurl info message cache 4 (connect to 52.70.206.117 port 443 failed: Timed out)
+[2017.07.08-22.15.28:002][991]LogHttp:Warning: 0000000072EC5900: libcurl info message cache 5 (  Trying 34.224.134.130...)
+[2017.07.08-22.15.28:002][991]LogHttp:Warning: 0000000072EC5900: libcurl info message cache 6 (connect to 34.224.134.130 port 443 failed: Timed out)
+[2017.07.08-22.15.28:002][991]LogHttp:Warning: 0000000072EC5900: libcurl info message cache 7 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2017.07.08-22.15.28:002][991]LogHttp:Warning: 0000000072EC5900: libcurl info message cache 8 (Closing connection 2)
+[2017.07.08-22.15.36:465][542]LogActorFactory: Actor Factory created scaleMan_Group15815
+[2017.07.08-22.15.37:256][599]LogActorFactory: Actor Factory created scaleMan_Group15815
+[2017.07.08-22.15.39:207][745]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.07.08-22.15.45:112][206]Cmd: DELETE
+[2017.07.08-22.15.45:112][206]Cmd: ACTOR DELETE
+[2017.07.08-22.15.45:113][206]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.08-22.15.45:132][206]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.07.08-22.18.25:900][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="E:/documents/mechaCity/mechaCity/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.07.08-22.18.26:166][157]LogSavePackage: Save=265.80ms
+[2017.07.08-22.18.26:166][157]LogSavePackage: Moving 'E:/documents/mechaCity/mechaCity/Saved/Untitled_1_Auto1896A94014F60BEF09122E392FB411932.tmp' to 'E:/documents/mechaCity/mechaCity/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2017.07.08-22.18.26:166][157]LogSavePackage:Display: Finished SavePackage E:/documents/mechaCity/mechaCity/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2017.07.08-22.18.26:179][157]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.294
+[2017.07.08-22.18.26:179][157]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.294
+[2017.07.08-22.20.58:546][799]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Boulot/cubebrush/03_meshes/scaleMan.FBX)
+[2017.07.08-22.20.58:552][799]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.08-22.20.58:552][799]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.07.08-22.20.58:552][799]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.07.08-22.20.58:552][799]LogFbx: ItemName: Model, ItemCount : 1
+[2017.07.08-22.20.58:552][799]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.07.08-22.20.58:552][799]LogFbx: ItemName: Material, ItemCount : 1
+[2017.07.08-22.20.58:556][799]LogFbx: Loading FBX Scene from E:/Boulot/cubebrush/03_meshes/scaleMan.FBX
+[2017.07.08-22.20.58:563][799]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.08-22.21.00:267][799]LogFbx: Loading FBX Scene from E:/Boulot/cubebrush/03_meshes/scaleMan.FBX
+[2017.07.08-22.21.00:273][799]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.08-22.21.00:275][799]LogLinker: Can't find file '/Game/meshes/utilities/default'
+[2017.07.08-22.21.00:275][799]LogLinker: Can't find file '/Game/meshes/utilities/default'
+[2017.07.08-22.21.00:279][799]LogMaterial: Missing cached shader map for material default, compiling. 
+[2017.07.08-22.21.00:295][799]LogStaticMesh: Building static mesh scaleMan...
+[2017.07.08-22.21.00:317][799]LogStaticMesh: Built static mesh [0.02s] /Game/meshes/utilities/scaleMan.scaleMan
+[2017.07.08-22.21.08:667][309]LogActorFactory: Actor Factory created scaleMan
+[2017.07.08-22.21.09:230][376]LogActorFactory: Actor Factory created scaleMan
+[2017.07.08-22.21.17:227][325]Cmd: DELETE
+[2017.07.08-22.21.17:227][325]Cmd: ACTOR DELETE
+[2017.07.08-22.21.17:228][325]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.08-22.21.17:240][325]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.07.08-22.21.28:505][667]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2017.07.08-22.21.28:524][667]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2017.07.08-22.21.28:548][667]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2017.07.08-22.21.28:576][667]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2017.07.08-22.21.28:599][667]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2017.07.08-22.21.28:631][667]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.07.08-22.21.28:648][667]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.07.08-22.21.28:668][667]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.07.08-22.21.28:693][667]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.07.08-22.21.28:723][667]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2017.07.08-22.21.28:745][667]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.07.08-22.21.28:777][667]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2017.07.08-22.21.28:803][667]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.07.08-22.21.37:389][565]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.07.08-22.21.37:404][565]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.07.08-22.22.32:052][207]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 64X64)
+[2017.07.08-22.22.32:057][207]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2017.07.08-22.22.32:364][223]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2017.07.08-22.22.32:368][223]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 64X64)
+[2017.07.08-22.22.33:713][334]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2017.07.08-22.23.23:070][695]LogEditorActor: Deleted Actor: Landscape
+[2017.07.08-22.23.23:111][695]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2017.07.08-22.24.03:924][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/scenes/mechaCity_start" FILE="E:/documents/mechaCity/mechaCity/Content/scenes/mechaCity_start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.08-22.24.04:018][651]LogSavePackage: Save=76.12ms
+[2017.07.08-22.24.04:018][651]LogSavePackage: Moving 'E:/documents/mechaCity/mechaCity/Saved/mechaCity_start837C74F3424AF27924CF538B3D636A9E.tmp' to 'E:/documents/mechaCity/mechaCity/Content/scenes/mechaCity_start.umap'
+[2017.07.08-22.24.04:021][651]LogSavePackage:Display: Finished SavePackage E:/documents/mechaCity/mechaCity/Content/scenes/mechaCity_start.umap
+[2017.07.08-22.24.04:052][651]LogFileHelpers: Saving map 'mechaCity_start' took 0.222
+[2017.07.08-22.24.04:053][651]Cmd: MAP LOAD FILE="E:/documents/mechaCity/mechaCity/Content/scenes/mechaCity_start.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.08-22.24.04:074][651]LightingResults: New page: Lighting Build
+[2017.07.08-22.24.04:075][651]LoadErrors: New page: Loading map: mechaCity_start.umap
+[2017.07.08-22.24.04:076][651]MapCheck: New page: Map Check
+[2017.07.08-22.24.04:076][651]LightingResults: New page: Lighting Build
+[2017.07.08-22.24.04:114][651]LogAIModule: Creating AISystem for world mechaCity_start
+[2017.07.08-22.24.04:118][651]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.08-22.24.04:144][651]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.08-22.24.04:182][651]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.067ms to complete.
+[2017.07.08-22.24.04:182][651]LogFileHelpers: Loading map 'mechaCity_start' took 0.130
+[2017.07.08-22.25.22:750][ 17]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.25.22:796][ 17]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.25.22:808][ 17]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.25.23:803][ 96]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.07.08-22.25.23:803][ 96]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.07.08-22.25.23:803][ 96]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.07.08-22.25.39:572][970]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.25.39:583][970]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.08-22.25.40:579][ 56]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.07.08-22.25.40:579][ 56]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.07.08-22.25.40:579][ 56]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.07.08-22.25.41:935][217]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.25.41:945][217]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.07.08-22.25.41:951][217]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.07.08-22.25.41:981][217]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.25.42:936][293]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.07.08-22.25.42:936][293]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.07.08-22.25.42:936][293]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.07.08-22.25.44:850][521]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.25.49:592][ 52]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.25.49:604][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.08-22.25.50:755][158]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.07.08-22.25.50:755][158]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.07.08-22.25.50:755][158]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.07.08-22.25.52:965][422]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.25.52:966][422]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.25.52:966][422]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.07.08-22.25.52:973][422]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.08-22.25.52:993][422]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2017.07.08-22.26.05:024][857]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.26.05:024][857]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.26.05:024][857]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.07.08-22.26.05:026][857]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.07.08-22.26.05:033][857]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.07.08-22.26.05:059][857]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.26.05:060][857]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.26.05:060][857]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.26.05:083][857]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.07.08-22.26.05:085][857]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.26.31:124][975]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.26.31:125][975]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.26.31:125][975]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.26.31:130][975]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.07.08-22.26.43:063][403]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.26.43:063][403]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.26.43:063][403]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.26.43:071][403]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.07.08-22.26.58:872][296]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.26.58:872][296]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.26.58:872][296]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.26.58:877][296]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.07.08-22.27.03:185][807]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.27.03:185][807]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.27.03:185][807]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.27.03:212][807]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.07.08-22.27.03:214][807]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.07.08-22.27.38:415][ 18]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.27.38:415][ 18]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.27.38:415][ 18]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.27.38:422][ 18]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.07.08-22.27.44:055][688]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.27.44:055][688]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.27.44:055][688]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.27.44:063][688]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.07.08-22.27.46:046][920]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.27.46:046][920]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.27.46:046][920]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.27.46:049][920]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.07.08-22.28.15:825][470]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.28.15:825][470]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.28.15:825][470]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.28.15:830][470]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.07.08-22.28.41:047][482]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.28.41:048][482]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.28.41:048][482]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.28.41:075][482]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.07.08-22.28.41:076][482]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2017.07.08-22.28.57:669][442]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.28.57:669][442]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.28.57:669][442]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.28.57:676][442]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2017.07.08-22.29.23:719][541]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.29.23:719][541]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.29.23:719][541]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.29.23:723][541]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.07.08-22.29.23:747][541]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2017.07.08-22.29.49:594][623]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.29.49:594][623]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.29.49:594][623]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.30.24:894][833]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.30.24:894][833]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.30.24:894][833]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.30.24:919][833]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.07.08-22.30.24:921][833]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.07.08-22.30.30:694][509]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.30.30:695][509]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.30.30:695][509]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.30.33:650][857]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.30.33:650][857]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.30.33:650][857]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.30.33:658][857]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.07.08-22.30.35:384][ 52]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.30.35:384][ 52]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.30.35:384][ 52]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.30.35:387][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.07.08-22.30.37:189][262]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.30.37:189][262]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.30.37:189][262]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.30.37:190][262]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.08-22.30.37:198][262]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.08-22.30.37:231][262]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.30.37:231][262]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.30.37:231][262]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.30.37:264][262]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.08-22.30.39:720][531]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.08-22.30.39:765][532]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.08-22.30.39:793][532]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.08-22.30.39:824][532]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.08-22.30.40:021][543]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.30.40:021][543]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.30.40:021][543]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.30.40:025][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.08-22.30.49:912][710]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.30.49:912][710]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.30.49:912][710]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.30.49:915][710]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.08-22.30.52:276][983]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.30.52:276][983]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.30.52:276][983]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.31.00:055][910]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.31.00:055][910]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.31.00:055][910]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.31.00:060][910]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.08-22.31.20:476][330]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.31.20:476][330]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.31.20:476][330]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.31.22:251][538]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.31.22:251][538]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.31.22:251][538]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.31.22:258][538]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.31.22:258][538]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.31.22:258][538]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.31.38:344][457]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.31.38:344][457]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.31.38:344][457]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.31.40:457][708]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.31.40:458][708]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.31.40:458][708]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.31.45:402][291]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.31.45:402][291]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.31.45:402][291]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.31.48:916][705]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.31.48:916][705]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.31.48:916][705]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.31.54:739][397]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.31.54:739][397]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.31.54:739][397]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.31.58:471][843]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.31.58:471][843]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.31.58:471][843]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.32.03:064][388]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.32.03:065][388]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.32.03:065][388]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.32.03:067][388]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.07.08-22.32.04:432][545]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.32.04:432][545]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.32.04:432][545]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.32.06:815][827]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.32.06:815][827]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.32.06:815][827]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.32.33:353][975]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.32.33:353][975]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.32.33:353][975]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.32.38:130][542]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.32.38:130][542]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.32.38:130][542]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.32.41:347][923]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.32.41:348][923]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.32.41:348][923]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.32.41:354][923]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.07.08-22.32.43:082][125]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.32.43:083][125]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.32.43:083][125]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.33.25:051][104]LogMaterialEditor: Saving and Compiling material MM_BaseMaterial
+[2017.07.08-22.33.29:001][104]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.33.29:001][104]LogMaterial:Warning: Failed to compile Material /Engine/Transient.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.33.29:001][104]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.33.29:015][104]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.33.29:015][104]LogMaterial:Warning: Failed to compile Material /Game/matInstances/MM_BaseMaterial.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.33.29:015][104]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.33.29:017][104]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.33.29:018][104]LogMaterial:Warning: Failed to compile Material /Game/matInstances/MM_BaseMaterial.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.33.29:018][104]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.33.29:035][104]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MM_BaseMaterial, compiling. 
+[2017.07.08-22.33.29:035][104]TextureStreamingBuild:Display: Compiling optional shaders took 0.005 seconds.
+[2017.07.08-22.33.29:084][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/matInstances/MM_BaseMaterial" FILE="E:/documents/mechaCity/mechaCity/Content/matInstances/MM_BaseMaterial.uasset" SILENT=true
+[2017.07.08-22.33.29:124][104]LogSavePackage: Save=38.10ms
+[2017.07.08-22.33.29:124][104]LogSavePackage: Moving 'E:/documents/mechaCity/mechaCity/Saved/MM_BaseMaterialDEFC4E534CEBD555103F13A6DA8A9DAB.tmp' to 'E:/documents/mechaCity/mechaCity/Content/matInstances/MM_BaseMaterial.uasset'
+[2017.07.08-22.33.29:125][104]LogSavePackage:Display: Finished SavePackage E:/documents/mechaCity/mechaCity/Content/matInstances/MM_BaseMaterial.uasset
+[2017.07.08-22.33.55:616][ 84]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.33.55:616][ 84]LogMaterial:Warning: Failed to compile Material /Game/matMasters/MM_BaseMaterial.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.33.55:616][ 84]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.34.06:226][ 94]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.07.08-22.34.11:187][541]LogHttp:Warning: 00000000236A3880: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.07.08-22.34.11:187][541]LogHttp:Warning: 00000000236A3880: libcurl info message cache 0 (Connection 7 seems to be dead!)
+[2017.07.08-22.34.11:187][541]LogHttp:Warning: 00000000236A3880: libcurl info message cache 1 (Closing connection 7)
+[2017.07.08-22.34.11:187][541]LogHttp:Warning: 00000000236A3880: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.07.08-22.34.11:187][541]LogHttp:Warning: 00000000236A3880: libcurl info message cache 3 (  Trying 52.70.206.117...)
+[2017.07.08-22.34.11:187][541]LogHttp:Warning: 00000000236A3880: libcurl info message cache 4 (connect to 52.70.206.117 port 443 failed: Timed out)
+[2017.07.08-22.34.11:187][541]LogHttp:Warning: 00000000236A3880: libcurl info message cache 5 (  Trying 34.224.134.130...)
+[2017.07.08-22.34.11:187][541]LogHttp:Warning: 00000000236A3880: libcurl info message cache 6 (connect to 34.224.134.130 port 443 failed: Timed out)
+[2017.07.08-22.34.11:187][541]LogHttp:Warning: 00000000236A3880: libcurl info message cache 7 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2017.07.08-22.34.11:187][541]LogHttp:Warning: 00000000236A3880: libcurl info message cache 8 (Closing connection 8)
+[2017.07.08-22.34.11:815][615]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.08-22.34.11:815][615]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.34.11:815][615]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.34.11:861][615]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.08-22.34.11:861][615]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.34.11:861][615]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.34.11:864][615]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.08-22.34.11:864][615]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.34.11:864][615]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.34.11:890][615]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2017.07.08-22.34.11:892][615]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.07.08-22.34.11:894][615]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.07.08-22.34.11:895][615]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.08-22.34.11:902][615]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.34.24:061][959]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MM_BaseMaterial_Inst, compiling. 
+[2017.07.08-22.34.24:062][959]TextureStreamingBuild:Display: Compiling optional shaders took 0.003 seconds.
+[2017.07.08-22.34.32:920][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/matMasters/MI_BaseMaterial" FILE="E:/documents/mechaCity/mechaCity/Content/matMasters/MI_BaseMaterial.uasset" SILENT=true
+[2017.07.08-22.34.32:934][860]LogSavePackage: Save=12.74ms
+[2017.07.08-22.34.32:934][860]LogSavePackage: Moving 'E:/documents/mechaCity/mechaCity/Saved/MI_BaseMaterial1EEAA2364B419F1605B758A5423FB850.tmp' to 'E:/documents/mechaCity/mechaCity/Content/matMasters/MI_BaseMaterial.uasset'
+[2017.07.08-22.34.32:935][860]LogSavePackage:Display: Finished SavePackage E:/documents/mechaCity/mechaCity/Content/matMasters/MI_BaseMaterial.uasset
+[2017.07.08-22.34.56:327][335]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MI_BaseMaterial, compiling. 
+[2017.07.08-22.34.56:327][335]TextureStreamingBuild:Display: Compiling optional shaders took 0.004 seconds.
+[2017.07.08-22.34.58:868][634]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.07.08-22.34.58:868][634]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.34.58:868][634]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.34.58:910][634]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.07.08-22.34.58:910][634]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.34.58:910][634]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.34.58:913][634]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.07.08-22.34.58:913][634]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.34.58:913][634]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.34.58:941][634]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2017.07.08-22.34.58:943][634]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.07.08-22.34.58:944][634]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2017.07.08-22.34.58:946][634]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.08-22.34.58:950][634]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.35.03:153][117]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.07.08-22.35.03:154][117]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.35.03:154][117]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.35.05:242][361]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.07.08-22.35.05:242][361]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.35.05:242][361]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.35.07:143][583]LogMaterialEditor: Saving and Compiling material MM_BaseMaterial
+[2017.07.08-22.35.08:813][583]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.07.08-22.35.08:813][583]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.35.08:813][583]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.35.08:830][583]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.35.08:830][583]LogMaterial:Warning: Failed to compile Material /Game/matMasters/MM_BaseMaterial.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.35.08:830][583]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.35.08:833][583]LogMaterial: Missing cached shader map for material MM_BaseMaterial, compiling. 
+[2017.07.08-22.35.08:833][583]LogMaterial:Warning: Failed to compile Material /Game/matMasters/MM_BaseMaterial.MM_BaseMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.08-22.35.08:833][583]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.07.08-22.35.08:852][583]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MM_BaseMaterial, compiling. 
+[2017.07.08-22.35.08:853][583]TextureStreamingBuild:Display: Compiling optional shaders took 0.006 seconds.
+[2017.07.08-22.35.08:913][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/matMasters/MM_BaseMaterial" FILE="E:/documents/mechaCity/mechaCity/Content/matMasters/MM_BaseMaterial.uasset" SILENT=true
+[2017.07.08-22.35.08:930][583]LogSavePackage: Save=15.29ms
+[2017.07.08-22.35.08:930][583]LogSavePackage: Moving 'E:/documents/mechaCity/mechaCity/Saved/MM_BaseMaterial11A755C4496345520278A1BBF7025265.tmp' to 'E:/documents/mechaCity/mechaCity/Content/matMasters/MM_BaseMaterial.uasset'
+[2017.07.08-22.35.08:930][583]LogSavePackage:Display: Finished SavePackage E:/documents/mechaCity/mechaCity/Content/matMasters/MM_BaseMaterial.uasset
+[2017.07.08-22.35.17:304][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/matInstances/MI_BaseMaterial" FILE="E:/documents/mechaCity/mechaCity/Content/matInstances/MI_BaseMaterial.uasset" SILENT=true
+[2017.07.08-22.35.17:316][568]LogSavePackage: Save=11.67ms
+[2017.07.08-22.35.17:316][568]LogSavePackage: Moving 'E:/documents/mechaCity/mechaCity/Saved/MI_BaseMaterialD984AAFA4512FD27CDA8EE9C72FDBDB0.tmp' to 'E:/documents/mechaCity/mechaCity/Content/matInstances/MI_BaseMaterial.uasset'
+[2017.07.08-22.35.17:317][568]LogSavePackage:Display: Finished SavePackage E:/documents/mechaCity/mechaCity/Content/matInstances/MI_BaseMaterial.uasset
+[2017.07.08-22.35.17:330][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/meshes/utilities/scaleMan" FILE="E:/documents/mechaCity/mechaCity/Content/meshes/utilities/scaleMan.uasset" SILENT=true
+[2017.07.08-22.35.17:363][568]LogSavePackage: Save=32.35ms
+[2017.07.08-22.35.17:363][568]LogSavePackage: Moving 'E:/documents/mechaCity/mechaCity/Saved/scaleManD2D6994F43FC5793AF75C18CD09EFEAB.tmp' to 'E:/documents/mechaCity/mechaCity/Content/meshes/utilities/scaleMan.uasset'
+[2017.07.08-22.35.17:364][568]LogSavePackage:Display: Finished SavePackage E:/documents/mechaCity/mechaCity/Content/meshes/utilities/scaleMan.uasset
+[2017.07.08-22.35.43:822][930]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/scenes/mechaCity_start' took 0.015
