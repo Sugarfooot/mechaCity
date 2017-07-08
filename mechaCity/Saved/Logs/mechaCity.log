@@ -1377,3 +1377,13 @@ LogInit: Object subsystem initialized
 [2017.07.08-22.35.17:363][568]LogSavePackage: Moving 'E:/documents/mechaCity/mechaCity/Saved/scaleManD2D6994F43FC5793AF75C18CD09EFEAB.tmp' to 'E:/documents/mechaCity/mechaCity/Content/meshes/utilities/scaleMan.uasset'
 [2017.07.08-22.35.17:364][568]LogSavePackage:Display: Finished SavePackage E:/documents/mechaCity/mechaCity/Content/meshes/utilities/scaleMan.uasset
 [2017.07.08-22.35.43:822][930]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/scenes/mechaCity_start' took 0.015
+[2017.07.08-22.37.07:458][182]LogHttp:Warning: 0000000004696980: request failed, libcurl error: 7 (Couldn't connect to server)
+[2017.07.08-22.37.07:458][182]LogHttp:Warning: 0000000004696980: libcurl info message cache 0 (Connection 9 seems to be dead!)
+[2017.07.08-22.37.07:458][182]LogHttp:Warning: 0000000004696980: libcurl info message cache 1 (Closing connection 9)
+[2017.07.08-22.37.07:458][182]LogHttp:Warning: 0000000004696980: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.07.08-22.37.07:458][182]LogHttp:Warning: 0000000004696980: libcurl info message cache 3 (  Trying 52.70.206.117...)
+[2017.07.08-22.37.07:458][182]LogHttp:Warning: 0000000004696980: libcurl info message cache 4 (connect to 52.70.206.117 port 443 failed: Timed out)
+[2017.07.08-22.37.07:458][182]LogHttp:Warning: 0000000004696980: libcurl info message cache 5 (  Trying 34.224.134.130...)
+[2017.07.08-22.37.07:458][182]LogHttp:Warning: 0000000004696980: libcurl info message cache 6 (connect to 34.224.134.130 port 443 failed: Timed out)
+[2017.07.08-22.37.07:458][182]LogHttp:Warning: 0000000004696980: libcurl info message cache 7 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2017.07.08-22.37.07:458][182]LogHttp:Warning: 0000000004696980: libcurl info message cache 8 (Closing connection 10)
